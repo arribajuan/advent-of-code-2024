@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="assets\data\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Helpers\Helpers.csproj" />
     </ItemGroup>
 
@@ -21,6 +17,17 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="assets\data\dat01-test.txt" />
+      <Content Include="assets\data\day01-test.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="assets\data\day01-data.txt" />
+      <Content Include="assets\data\day01-data.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
