@@ -6,5 +6,6 @@
     &lt;TestAncestor&gt;
       &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day01.Day01Test.Test_Day01_SumTotalDistance_FromFile_Star1&lt;/TestId&gt;
     &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;564CE278-4361-4C0A-9753-A8843C3D94DD/d:Day01/f:Day01Test.cs&lt;/ProjectFile&gt;
   &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
