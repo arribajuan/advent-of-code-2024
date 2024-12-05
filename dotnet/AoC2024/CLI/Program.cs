@@ -26,3 +26,13 @@ Console.WriteLine($" Star 2 - Total safe reports plus dampening = {d02Star2}");
 Console.WriteLine("-----------------------------");
 
 #endregion
+
+#region Day 3
+
+var d03Star1 = Stars.Day03.Day03.AddMultiplications(Stars.Day03.Day03.GetFilePath(Stars.Day03.Day03.FileType.ChallengeData));
+
+Console.WriteLine("Day 3");
+Console.WriteLine($" Star 1 - Add multiplications= {d03Star1}");
+Console.WriteLine("-----------------------------");
+
+#endregion
