@@ -1,11 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002EManipulation_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fa984a133191d26625f45e85cc27e20cad64f4a6ecb6263b4c17bc55965a5_003FString_002EManipulation_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9747ff00_002D6e9c_002D4820_002D9c5d_002Dcaaf8f272026/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_FileIO_Load2DArrayFromTextLinesDay3_Empty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Or&gt;
-    &lt;Project Location="/Users/jmartinez/Code/GitHub/advent-of-code-2024/dotnet/AoC2024/Helpers" Presentation="&amp;lt;Helpers&amp;gt;" /&gt;
-    &lt;TestAncestor&gt;
-      &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day01.Day01Test.Test_Day01_SumTotalDistance_FromFile_Star1&lt;/TestId&gt;
-    &lt;/TestAncestor&gt;
-    &lt;ProjectFile&gt;564CE278-4361-4C0A-9753-A8843C3D94DD/d:Day01/f:Day01Test.cs&lt;/ProjectFile&gt;
-  &lt;/Or&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9747ff00_002D6e9c_002D4820_002D9c5d_002Dcaaf8f272026/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_FileIO_Load2DArrayFromTextLinesDay3_Empty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Project Location="\Users\jmartinez\Code\GitHub\advent-of-code-2024\dotnet\AoC2024\Helpers" Presentation="&amp;lt;Helpers&amp;gt;" /&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day01.Day01Test.Test_Day01_SumTotalDistance_FromFile_Star1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day02.Day02Test.Test_Day02_CountSafeReports_FromTestFile_Star1&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;564CE278-4361-4C0A-9753-A8843C3D94DD/d:Day01/f:Day01Test.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
