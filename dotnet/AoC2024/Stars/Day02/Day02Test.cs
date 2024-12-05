@@ -18,4 +18,19 @@ public class Day02Test
         Assert.Equal(224, safeReports);
     }
     
+    [Fact]
+    public void Test_Day02_CountSafeAndDampenedReports_FromTestFile_Star2()
+    {
+        var safeReports = Day02.CountSafeAndDampenedReports(Day02.GetFilePath(Day02.FileType.Test));
+        
+        Assert.Equal(4, safeReports);
+    }
+    
+    [Fact]
+    public void Test_Day02_CountSafeAndDampenedReports_FromDataFile_Star2()
+    {
+        var safeReports = Day02.CountSafeAndDampenedReports(Day02.GetFilePath(Day02.FileType.ChallengeData));
+        
+        Assert.Equal(293, safeReports);
+    }
 }

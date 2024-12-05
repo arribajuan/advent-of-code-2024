@@ -18,9 +18,11 @@ Console.WriteLine("-----------------------------");
 #region Day 2
 
 var d02Star1 = Stars.Day02.Day02.CountSafeReports(Stars.Day02.Day02.GetFilePath(Stars.Day02.Day02.FileType.ChallengeData));
+var d02Star2 = Stars.Day02.Day02.CountSafeAndDampenedReports(Stars.Day02.Day02.GetFilePath(Stars.Day02.Day02.FileType.ChallengeData));
 
 Console.WriteLine("Day 2");
 Console.WriteLine($" Star 1 - Total safe reports = {d02Star1}");
+Console.WriteLine($" Star 2 - Total safe reports plus dampening = {d02Star2}");
 Console.WriteLine("-----------------------------");
 
 #endregion
