@@ -21,19 +21,19 @@ public class FileIO
         return File.ReadAllText(fileLocation, Encoding.Default);;
     }
 
-    public static string[,] Load2DArrayFromFileDay3(string fileLocation)
+    public static string[,] Load2DStringArrayFromFile(string fileLocation)
     {
         if (!File.Exists(fileLocation)) return new string[0,0];
         
         var lines = LoadTextLinesFromFile(fileLocation);
-        return Parse.Load2DArrayFromTextLinesDay3(lines);;
+        return Parse.Load2DStringArrayFromTextLines(lines);;
     }
     
-    public static long[,] Load2DArrayFromFileDay5(string fileLocation)
+    public static long[,] Load2DLongArrayFromFile(string fileLocation)
     {
         if (!File.Exists(fileLocation)) return new long[0,0];
         
         var lines = LoadTextLinesFromFile(fileLocation);
-        return Parse.Load2DArrayFromTextLinesDay5(lines);;
+        return Parse.Load2DLongArrayFromTextLines(lines);;
     }
 }

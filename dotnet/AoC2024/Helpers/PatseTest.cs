@@ -3,17 +3,17 @@ namespace Helpers;
 public class PatseTest
 {
     [Fact]
-    public void Test_FileIO_Load2DArrayFromTextLinesDay3_Empty()
+    public void Test_Parse_Load2DStringArrayFromTextLines_Empty()
     {
         var emptyInput = new List<string>();
         var emptyResult = new string [0, 0];
-        var resultData = Parse.Load2DArrayFromTextLinesDay3(emptyInput);
+        var resultData = Parse.Load2DStringArrayFromTextLines(emptyInput);
         
         Assert.Equal(emptyResult, resultData);
     }
 
     [Fact]
-    public void Test_FileIO_Load2DArrayFromTextLinesDay3()
+    public void Test_Parse_Load2DStringArrayFromTextLines()
     {
         var lines = new List<string>
         {
@@ -29,7 +29,7 @@ public class PatseTest
             ".664.598.."
         };
 
-        var resultData = Parse.Load2DArrayFromTextLinesDay3(lines);
+        var resultData = Parse.Load2DStringArrayFromTextLines(lines);
         
         Assert.Equal(2, resultData.Rank);
         Assert.Equal(10, resultData.GetLength(0));
@@ -37,17 +37,17 @@ public class PatseTest
     }
 
     [Fact]
-    public void Test_FileIO_Load2DArrayFromTextLinesDay5_Empty()
+    public void Test_Parse_Load2DLongArrayFromTextLines_Empty()
     {
         var emptyInput = new List<string>();
         var emptyResult = new long [0, 0];
-        var resultData = Parse.Load2DArrayFromTextLinesDay5(emptyInput);
+        var resultData = Parse.Load2DLongArrayFromTextLines(emptyInput);
         
         Assert.Equal(emptyResult, resultData);
     }
     
     [Fact]
-    public void Test_FileIO_Load2DArrayFromTextLinesDay5()
+    public void Test_Parse_Load2DLongArrayFromTextLines()
     {
         var lines = new List<string>
         {
@@ -55,7 +55,7 @@ public class PatseTest
             "52 50 48"
         };
 
-        var resultData = Parse.Load2DArrayFromTextLinesDay5(lines);
+        var resultData = Parse.Load2DLongArrayFromTextLines(lines);
         
         Assert.Equal(2, resultData.Rank);
         Assert.Equal(2, resultData.GetLength(0));

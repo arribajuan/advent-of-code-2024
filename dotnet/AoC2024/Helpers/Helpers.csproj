@@ -21,11 +21,13 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <None Remove="assets\data\test-2darray-day5.txt" />
-      <Content Include="assets\data\test-2darray-day5.txt">
+      <None Remove="assets\data\test-2darray-day3.txt" />
+      <None Remove="assets\data\test-2d-long-array.txt" />
+      <Content Include="assets\data\test-2d-long-array.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <None Remove="assets\data\test-2darray-day3.txt" />
-      <Content Include="assets\data\test-2darray-day3.txt">
+      <None Remove="assets\data\test-2d-string-array.txt" />
+      <Content Include="assets\data\test-2d-string-array.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
     </ItemGroup>

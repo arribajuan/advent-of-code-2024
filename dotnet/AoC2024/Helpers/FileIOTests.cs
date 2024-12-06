@@ -44,19 +44,19 @@ public class FileIOTests
     
     
     [Fact]
-    public void Test_FileIO_Load2DArrayFromFileDay3_NoFile()
+    public void Test_FileIO_Load2DStringArrayFromFile_NoFile()
     {
         var emptyData = new string[0, 0];
-        var resultData = FileIO.Load2DArrayFromFileDay3("");
+        var resultData = FileIO.Load2DStringArrayFromFile("");
         
         Assert.Equal(emptyData, resultData);
     }
 
     [Fact]
-    public void Test_FileIO_Load2DArrayFromFileDay3()
+    public void Test_FileIO_Load2DStringArrayFromFile()
     {
-        var testDataPath = AppDomain.CurrentDomain.BaseDirectory + "assets/data/test-2darray-day3.txt";
-        var resultData = FileIO.Load2DArrayFromFileDay3(testDataPath);
+        var testDataPath = AppDomain.CurrentDomain.BaseDirectory + "assets/data/test-2d-string-array.txt";
+        var resultData = FileIO.Load2DStringArrayFromFile(testDataPath);
         
         Assert.Equal(2, resultData.Rank);
         Assert.Equal(10, resultData.GetLength(0));
@@ -64,19 +64,19 @@ public class FileIOTests
     }
     
     [Fact]
-    public void Test_FileIO_Load2DArrayFromFileDay5_NoFile()
+    public void Test_FileIO_Load2DLongArrayFromFile_NoFile()
     {
         var emptyData = new long[0, 0];
-        var resultData = FileIO.Load2DArrayFromFileDay5("");
+        var resultData = FileIO.Load2DLongArrayFromFile("");
         
         Assert.Equal(emptyData, resultData);
     }
 
     [Fact]
-    public void Test_FileIO_Load2DArrayFromFileDay5()
+    public void Test_FileIO_Load2DLongArrayFromFile()
     {
-        var testDataPath = AppDomain.CurrentDomain.BaseDirectory + "assets/data/test-2darray-day5.txt";
-        var resultData = FileIO.Load2DArrayFromFileDay5(testDataPath);
+        var testDataPath = AppDomain.CurrentDomain.BaseDirectory + "assets/data/test-2d-long-array.txt";
+        var resultData = FileIO.Load2DLongArrayFromFile(testDataPath);
         
         Assert.Equal(2, resultData.Rank);
         Assert.Equal(2, resultData.GetLength(0));

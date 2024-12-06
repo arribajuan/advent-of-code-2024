@@ -2,7 +2,7 @@ namespace Helpers;
 
 public class Parse
 {
-    public static string[,] Load2DArrayFromTextLinesDay3(List<string> lines)
+    public static string[,] Load2DStringArrayFromTextLines(List<string> lines)
     {
         if (lines.Count == 0) return new string [0, 0];
         
@@ -19,7 +19,7 @@ public class Parse
         return result;
     }
     
-    public static long[,] Load2DArrayFromTextLinesDay5(List<string> lines)
+    public static long[,] Load2DLongArrayFromTextLines(List<string> lines)
     {
         if (lines.Count == 0) return new long [0, 0];
         
