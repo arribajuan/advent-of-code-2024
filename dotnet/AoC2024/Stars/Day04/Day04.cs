@@ -49,11 +49,6 @@ public class Day04
     }
     private static bool IsXMASToTheNE(string[,] letterArray, int startX, int startY)
     {
-        if (startX == 5 && startY == 0)
-        {
-            var a = 0;
-        }
-        
         if (startX - 3 < 0 ||
             startY + 3 >= letterArray.GetLength(1))
         {

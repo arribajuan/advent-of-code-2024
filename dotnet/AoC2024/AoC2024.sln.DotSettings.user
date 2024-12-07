@@ -2,7 +2,8 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AEqualityAsserts_002Ecs_002Fl_003AC_0021_003FUsers_003Farrib_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fad8b2779652854276d03ec153d51377686c7193799d1688e119272770d0cf_003FEqualityAsserts_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AMethodBaseInvoker_002Ecs_002Fl_003AC_0021_003FUsers_003Farrib_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F69ba5438e03a0e3a5d2f133f37405f9e32f9e0abb1fbe0a8cb7145514ff85f_003FMethodBaseInvoker_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002EManipulation_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fa984a133191d26625f45e85cc27e20cad64f4a6ecb6263b4c17bc55965a5_003FString_002EManipulation_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=58c56b00_002Df81e_002D48fd_002Da74f_002Dc8e84271fcf4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Continuous Testing" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\arrib\AppData\Local\JetBrains\Rider2024.3\resharper-host\temp\Rider\vAny\CoverageData\_AoC2024.95324391\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=58c56b00_002Df81e_002D48fd_002Da74f_002Dc8e84271fcf4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Continuous Testing" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;Project Location="\Users\jmartinez\Code\GitHub\advent-of-code-2024\dotnet\AoC2024\Helpers" Presentation="&amp;lt;Helpers&amp;gt;" /&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
@@ -17,7 +18,7 @@
     &lt;Project Location="D:\code\github\advent-of-code-2024\dotnet\AoC2024\Helpers" Presentation="&amp;lt;Helpers&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9747ff00_002D6e9c_002D4820_002D9c5d_002Dcaaf8f272026/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_FileIO_Load2DArrayFromTextLinesDay3_Empty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9747ff00_002D6e9c_002D4820_002D9c5d_002Dcaaf8f272026/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_FileIO_Load2DArrayFromTextLinesDay3_Empty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;Project Location="\Users\jmartinez\Code\GitHub\advent-of-code-2024\dotnet\AoC2024\Helpers" Presentation="&amp;lt;Helpers&amp;gt;" /&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
