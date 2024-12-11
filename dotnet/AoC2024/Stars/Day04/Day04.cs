@@ -28,6 +28,41 @@ public class Day04
 
         return XMASCount;
     }
+    
+    public static int CountX_MAS(string filePath)
+    {
+        var letterArray = FileIO.Load2DStringArrayFromFile(filePath);
+
+        var X_MASCount = 0;
+        for (var i = 0; i < letterArray.GetLength(0); i++)
+        {
+            for (var j = 0; j < letterArray.GetLength(1); j++)
+            {
+                if (letterArray[i, j] == "A")
+                {
+                    X_MASCount += IsX_MAS(letterArray, i, j) ? 1 : 0;
+                }
+            }
+        }
+
+        return X_MASCount;
+    }
+
+    private static bool IsX_MAS(string[,] letterArray, int startX, int startY)
+    {
+        
+        
+        if (letterArray[startX, startY] == "A" ||
+            letterArray[startX - 1, startY - 1] == "M" ||
+            letterArray[startX - 1, startY + 1] == "S" ||
+            letterArray[startX + 1, startY - 1] == "M" ||
+            letterArray[startX + 1, startY + 1] == "S" 
+            )
+        {
+            return true;
+        }
+        return false;
+    }
 
     private static bool IsXMASToTheN(string[,] letterArray, int startX, int startY)
     {
