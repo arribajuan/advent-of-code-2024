@@ -50,18 +50,30 @@ public class Day04
 
     private static bool IsX_MAS(string[,] letterArray, int startX, int startY)
     {
-        
-        
-        if (letterArray[startX, startY] == "A" ||
-            letterArray[startX - 1, startY - 1] == "M" ||
-            letterArray[startX - 1, startY + 1] == "S" ||
-            letterArray[startX + 1, startY - 1] == "M" ||
-            letterArray[startX + 1, startY + 1] == "S" 
-            )
+        // TODO: do proper validation instead of try/catch :S
+        try 
         {
-            return true;
+            if (letterArray[startX, startY] == "A" &&
+                (( letterArray[startX - 1, startY - 1] == "M" &&
+                   letterArray[startX + 1, startY + 1] == "S" ) ||
+                 ( letterArray[startX - 1, startY - 1] == "S" &&
+                   letterArray[startX + 1, startY + 1] == "M" )
+                ) &&
+                (( letterArray[startX - 1, startY + 1] == "M" &&
+                   letterArray[startX + 1, startY - 1] == "S" ) ||
+                 ( letterArray[startX - 1, startY + 1] == "S" &&
+                   letterArray[startX + 1, startY - 1] == "M" )
+                 ))
+            {
+                return true;
+            }
+
+            return false;
         }
-        return false;
+        catch (Exception e)
+        {
+            return false;
+        }
     }
 
     private static bool IsXMASToTheN(string[,] letterArray, int startX, int startY)

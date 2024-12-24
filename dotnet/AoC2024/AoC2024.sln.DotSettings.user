@@ -25,6 +25,9 @@
       &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day01.Day01Test.Test_Day01_SumTotalDistance_FromFile_Star1&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day02.Day02Test.Test_Day02_CountSafeReports_FromTestFile_Star1&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day04.Day4Test.Test_Day04_CountXMAS_FromTestFile_Star1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day04.Day4Test.Test_Day04_CountXMAS_FromDataFile_Star1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day04.Day4Test.Test_Day04_CountX_MAS_FromTestFile_Star2&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::564CE278-4361-4C0A-9753-A8843C3D94DD::net9.0::Stars.Day04.Day4Test.Test_Day04_CountX_MAS_FromDataFile_Star2&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;564CE278-4361-4C0A-9753-A8843C3D94DD/d:Day01/f:Day01Test.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;564CE278-4361-4C0A-9753-A8843C3D94DD/d:Day02/f:Day02Test.cs&lt;/ProjectFile&gt;&#xD;
